@@ -1,0 +1,63 @@
+.header__header{
+    background-color: #efefef;
+    z-index: -1;
+    height: 93px;
+    display: flex;
+    justify-content: space-between;
+    /*flex-direction: column;*/
+    padding-top: 0;
+}
+
+.header__title_black{
+    font-family: PlayRegular;
+    color: black;
+}
+.header__title_programming{
+    margin-top: 10px;
+    line-height: 1.4;
+    padding-top: 5px;
+}
+.header__title_work{
+    line-height: 93px;
+}
+
+.languages__table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.languages__thead{
+    border-bottom: 1px solid #FF9900;
+    font-size: 24px;
+    color: #0E75BC;
+}
+.languages__name{
+    text-align: left;
+}
+.languages__name-col{
+    text-align: left;
+    font-family: PlayBold;
+}
+.languages__level{
+    text-align: left;
+}
+.languages__level-col{
+    text-align: left;
+}
+.languages__span{
+    font-size: 14px;
+}
+
+
+.technologies__title{
+    width: auto;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+
+
+.experience__period{
+    font-family: PlayBold;
+    font-size: 18px;
+}
