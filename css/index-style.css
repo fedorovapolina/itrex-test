@@ -28,16 +28,41 @@
 body{
     display: flex;
     justify-content: center;
+
 }
 
 .wrapper{
     width: 793px;
-   /* background: url("../images/white-triangle.png") center no-repeat;
-    background-size: cover;*/
+    height: 1121px;
+    font-family: PlayRegular;
+    line-height: 2;
+
+    /*for fixed bottom*/
+    display: flex;
+    flex-direction: column;
 }
+
+/*fixed bottom*/
+.inner-wrap {
+    flex: 1 0 auto;
+}
+.footer {
+    flex: 0 0 auto;
+}
+
+
+
 .wrapper-image{
     position: absolute;
     width: 793px;
+}
+
+.paddings{
+    padding-left: 58px;
+    padding-right: 43px;
+}
+.upper{
+    text-transform: uppercase;
 }
 
 /*Header*/
@@ -45,8 +70,68 @@ body{
 .header{
     background-color: #efefef;
     z-index: -1;
+    height: 329px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 .header__head{
     display: flex;
     justify-content: space-between;
+    padding-top: 24px;
+}
+.header__title{
+    font-family: PlayBold;
+    font-size: 18px;
+    color: #0E75BC;
+}
+.header__employee{
+    padding-bottom: 20px;
+}
+.header__name{
+    font-family: PlayBold;
+    font-size: 24px;
+}
+.header__position{
+    color: #0E75BC;
+    font-size: 18px;
+}
+
+/*Summary*/
+
+.summary{
+    padding-top: 49px;
+}
+.summary__title{
+    width: 50%;
+    font-size: 24px;
+    background-color: #0E75BC;
+    color: white;
+    margin-left: -58px;
+    padding-left: 58px;
+    margin-bottom: 20px;
+}
+.summary__list-ul{
+    margin-left: 20px;
+}
+
+
+.summary__technologies{
+    margin-top: 20px;
+}
+.summary__tech-title{
+    width: 50%;
+    border-bottom: 1px solid #FF9900;
+    font-size: 24px;
+}
+.summary__tech-items{
+    list-style: none;
+}
+
+/*Footer*/
+.footer{
+    background-color: #0E75BC;
+    height: 57px;
+    line-height: 57px;
+    color: white;
 }
