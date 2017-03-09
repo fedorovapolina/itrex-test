@@ -6,6 +6,7 @@
     justify-content: space-between;
     /*flex-direction: column;*/
     padding-top: 0;
+    font-size: 16pt;
 }
 
 .header__title_black{
@@ -28,7 +29,7 @@
 }
 .languages__thead{
     border-bottom: 1px solid #FF9900;
-    font-size: 24px;
+    font-size: 24pt;
     color: #0E75BC;
 }
 .languages__name{
@@ -45,7 +46,7 @@
     text-align: left;
 }
 .languages__span{
-    font-size: 14px;
+    font-size: 14pt;
 }
 
 
@@ -56,8 +57,21 @@
 }
 
 
+.experience__item{
+    margin-top: 40px;
+}
 
 .experience__period{
     font-family: PlayBold;
-    font-size: 18px;
+    font-size: 18pt;
+    color: #0E75BC;
+}
+
+.experience__table{
+    border-collapse: collapse;
+}
+.experience__description{
+    font-family: PlayBold;
+    vertical-align: top;
+    width: 170px;
 }
