@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* font-family: "PlayRegular"; */
+@font-face {
+    font-family: "PlayRegular";
+    src: url("../fonts/PlayRegular/PlayRegular.eot");
+    src: url("../fonts/PlayRegular/PlayRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PlayRegular/PlayRegular.woff") format("woff"),
+    url("../fonts/PlayRegular/PlayRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "PlayBold"; */
+@font-face {
+    font-family: "PlayBold";
+    src: url("../fonts/PlayBold/PlayBold.eot");
+    src: url("../fonts/PlayBold/PlayBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PlayBold/PlayBold.woff") format("woff"),
+    url("../fonts/PlayBold/PlayBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 793px;
+   /* background: url("../images/white-triangle.png") center no-repeat;
+    background-size: cover;*/
+}
+.wrapper-image{
+    position: absolute;
+    width: 793px;
+}
+
+/*Header*/
+
+.header{
+    background-color: #efefef;
+    z-index: -1;
+}
+.header__head{
+    display: flex;
+    justify-content: space-between;
+}
